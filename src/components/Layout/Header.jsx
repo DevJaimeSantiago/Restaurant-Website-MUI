@@ -116,13 +116,15 @@ const Header = () => {
 							"& .MuiDrawer-paper": {
 								boxSizing: "border-box",
 								width: "240px",
-							  },
+							},
 						}}
 					>
 						{drawer}
 					</Drawer>
 				</Box>
-				<Toolbar />
+				<Box sx={{ p: 1 }}>
+					<Toolbar />
+				</Box>
 			</Box>
 		</>
 	);
