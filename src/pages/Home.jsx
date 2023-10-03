@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../styles/HomeStyles.css"
 
 // Components
 import Layout from "../components/Layout/Layout";
