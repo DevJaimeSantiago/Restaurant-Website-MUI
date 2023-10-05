@@ -14,6 +14,10 @@
     color: #fff;
 }
 
+.active{
+    color: goldenrod !important;
+    font-weight: bold;
+}
 /* Mobile View */
 
 .mobile-navigation{
